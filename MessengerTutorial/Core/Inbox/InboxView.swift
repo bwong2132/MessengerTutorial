@@ -11,6 +11,9 @@
 import SwiftUI
 
 struct InboxView: View {
+    
+    @State private var showNewMessageView = false  // see Module 5 Compose Message UI
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -23,6 +26,9 @@ struct InboxView: View {
                 .listStyle(PlainListStyle())
                 .frame(height: UIScreen.main.bounds.height - 120)
             }
+            .fullScreenCover(isPresented: $showNewMessageView, content: {
+                NewMessageView()
+            })
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     HStack {
@@ -36,7 +42,7 @@ struct InboxView: View {
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        print("hello")
+                        showNewMessageView.toggle()
                     } label: {
                         Image(systemName: "square.and.pencil.circle.fill")
                             .resizable()

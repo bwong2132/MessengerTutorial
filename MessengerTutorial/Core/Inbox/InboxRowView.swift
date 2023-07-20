@@ -9,7 +9,7 @@ import SwiftUI
 
 struct InboxRowView: View {
     var body: some View {
-        var circleSize = 64.0
+        let circleSize = 64.0
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: "person.circle.fill")
                 .resizable()
