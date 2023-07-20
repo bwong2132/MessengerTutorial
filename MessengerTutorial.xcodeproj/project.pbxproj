@@ -11,6 +11,12 @@
 		F3AA2C162A683ADA0042B599 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C152A683ADA0042B599 /* ContentView.swift */; };
 		F3AA2C182A683ADB0042B599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3AA2C172A683ADB0042B599 /* Assets.xcassets */; };
 		F3AA2C1B2A683ADB0042B599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3AA2C1A2A683ADB0042B599 /* Preview Assets.xcassets */; };
+		F3AA2C2A2A6843DD0042B599 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C292A6843DD0042B599 /* LoginView.swift */; };
+		F3AA2C2C2A68812E0042B599 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C2B2A68812E0042B599 /* RegistrationView.swift */; };
+		F3AA2C2E2A6884F00042B599 /* CommonButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C2D2A6884F00042B599 /* CommonButtonView.swift */; };
+		F3AA2C312A68939E0042B599 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C302A68939E0042B599 /* InboxView.swift */; };
+		F3AA2C342A68B5050042B599 /* ActiveNowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C332A68B5050042B599 /* ActiveNowView.swift */; };
+		F3AA2C362A68B7F60042B599 /* InboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C352A68B7F60042B599 /* InboxRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		F3AA2C152A683ADA0042B599 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3AA2C172A683ADB0042B599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3AA2C1A2A683ADB0042B599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3AA2C292A6843DD0042B599 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F3AA2C2B2A68812E0042B599 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		F3AA2C2D2A6884F00042B599 /* CommonButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButtonView.swift; sourceTree = "<group>"; };
+		F3AA2C302A68939E0042B599 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		F3AA2C332A68B5050042B599 /* ActiveNowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNowView.swift; sourceTree = "<group>"; };
+		F3AA2C352A68B7F60042B599 /* InboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,11 @@
 		F3AA2C122A683ADA0042B599 /* MessengerTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				F3AA2C132A683ADA0042B599 /* MessengerTutorialApp.swift */,
-				F3AA2C152A683ADA0042B599 /* ContentView.swift */,
+				F3AA2C242A6843100042B599 /* App */,
+				F3AA2C252A68435C0042B599 /* Extensions */,
+				F3AA2C232A68430D0042B599 /* Core */,
+				F3AA2C222A68430A0042B599 /* Models */,
+				F3AA2C212A6843050042B599 /* Services */,
 				F3AA2C172A683ADB0042B599 /* Assets.xcassets */,
 				F3AA2C192A683ADB0042B599 /* Preview Content */,
 			);
@@ -65,6 +80,89 @@
 				F3AA2C1A2A683ADB0042B599 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3AA2C212A6843050042B599 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F3AA2C222A68430A0042B599 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3AA2C232A68430D0042B599 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2C322A68B4F80042B599 /* ActiveNow */,
+				F3AA2C262A6843910042B599 /* Authentication */,
+				F3AA2C2F2A6893840042B599 /* Inbox */,
+				F3AA2C272A68439E0042B599 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F3AA2C242A6843100042B599 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2C132A683ADA0042B599 /* MessengerTutorialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F3AA2C252A68435C0042B599 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F3AA2C262A6843910042B599 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2C282A6843D30042B599 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F3AA2C272A68439E0042B599 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2C152A683ADA0042B599 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F3AA2C282A6843D30042B599 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2C292A6843DD0042B599 /* LoginView.swift */,
+				F3AA2C2B2A68812E0042B599 /* RegistrationView.swift */,
+				F3AA2C2D2A6884F00042B599 /* CommonButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3AA2C2F2A6893840042B599 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2C302A68939E0042B599 /* InboxView.swift */,
+				F3AA2C352A68B7F60042B599 /* InboxRowView.swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		F3AA2C322A68B4F80042B599 /* ActiveNow */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2C332A68B5050042B599 /* ActiveNowView.swift */,
+			);
+			path = ActiveNow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +235,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AA2C362A68B7F60042B599 /* InboxRowView.swift in Sources */,
+				F3AA2C2A2A6843DD0042B599 /* LoginView.swift in Sources */,
+				F3AA2C342A68B5050042B599 /* ActiveNowView.swift in Sources */,
+				F3AA2C312A68939E0042B599 /* InboxView.swift in Sources */,
 				F3AA2C162A683ADA0042B599 /* ContentView.swift in Sources */,
 				F3AA2C142A683ADA0042B599 /* MessengerTutorialApp.swift in Sources */,
+				F3AA2C2E2A6884F00042B599 /* CommonButtonView.swift in Sources */,
+				F3AA2C2C2A68812E0042B599 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
