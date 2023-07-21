@@ -11,10 +11,8 @@ struct InboxRowView: View {
     var body: some View {
         let circleSize = 64.0
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: "person.circle.fill")
-                .resizable()
-                .frame(width: circleSize, height: circleSize)
-                .foregroundColor(Color(.systemGray4))
+            CircularProfileImageView(user: User.MOCK_USER, size: .medium)
+            
             VStack(alignment: .leading, spacing: 5) {
                 Text("Heath Ledger")
                     .font(.subheadline)

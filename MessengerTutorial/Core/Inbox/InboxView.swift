@@ -37,11 +37,7 @@ struct InboxView: View {
                 ToolbarItem(placement: .navigationBarLeading) {
                     HStack {
                         NavigationLink(value: user) {          // module 8
-                            Image(user.profileImageUrl ?? "")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 32, height: 32)
-                                .clipShape(Circle())
+                            CircularProfileImageView(user: user, size: .xSmall)  // module 9
                         }
                         
                         

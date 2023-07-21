@@ -22,6 +22,7 @@
 		F3AA2C402A69BCDF0042B599 /* SettingsOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C3F2A69BCDF0042B599 /* SettingsOptionsViewModel.swift */; };
 		F3AA2C422A6A16C60042B599 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C412A6A16C60042B599 /* ProfileViewModel.swift */; };
 		F3AA2C442A6A22E00042B599 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C432A6A22E00042B599 /* User.swift */; };
+		F3AA2C472A6A31950042B599 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C462A6A31950042B599 /* CircularProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		F3AA2C3F2A69BCDF0042B599 /* SettingsOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptionsViewModel.swift; sourceTree = "<group>"; };
 		F3AA2C412A6A16C60042B599 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		F3AA2C432A6A22E00042B599 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F3AA2C462A6A31950042B599 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				F3AA2C322A68B4F80042B599 /* ActiveNow */,
 				F3AA2C262A6843910042B599 /* Authentication */,
+				F3AA2C452A6A31650042B599 /* Components */,
 				F3AA2C2F2A6893840042B599 /* Inbox */,
 				F3AA2C372A6987DC0042B599 /* NewMessage */,
 				F3AA2C3A2A69904E0042B599 /* Profile */,
@@ -212,6 +215,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		F3AA2C452A6A31650042B599 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F3AA2C462A6A31950042B599 /* CircularProfileImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -289,6 +300,7 @@
 				F3AA2C2A2A6843DD0042B599 /* LoginView.swift in Sources */,
 				F3AA2C342A68B5050042B599 /* ActiveNowView.swift in Sources */,
 				F3AA2C312A68939E0042B599 /* InboxView.swift in Sources */,
+				F3AA2C472A6A31950042B599 /* CircularProfileImageView.swift in Sources */,
 				F3AA2C422A6A16C60042B599 /* ProfileViewModel.swift in Sources */,
 				F3AA2C162A683ADA0042B599 /* ContentView.swift in Sources */,
 				F3AA2C142A683ADA0042B599 /* MessengerTutorialApp.swift in Sources */,
