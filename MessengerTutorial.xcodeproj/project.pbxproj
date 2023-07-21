@@ -20,6 +20,7 @@
 		F3AA2C392A6988090042B599 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C382A6988090042B599 /* NewMessageView.swift */; };
 		F3AA2C3E2A6991120042B599 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C3D2A6991120042B599 /* ProfileView.swift */; };
 		F3AA2C402A69BCDF0042B599 /* SettingsOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C3F2A69BCDF0042B599 /* SettingsOptionsViewModel.swift */; };
+		F3AA2C422A6A16C60042B599 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AA2C412A6A16C60042B599 /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		F3AA2C382A6988090042B599 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
 		F3AA2C3D2A6991120042B599 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F3AA2C3F2A69BCDF0042B599 /* SettingsOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptionsViewModel.swift; sourceTree = "<group>"; };
+		F3AA2C412A6A16C60042B599 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				F3AA2C3F2A69BCDF0042B599 /* SettingsOptionsViewModel.swift */,
+				F3AA2C412A6A16C60042B599 /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				F3AA2C2A2A6843DD0042B599 /* LoginView.swift in Sources */,
 				F3AA2C342A68B5050042B599 /* ActiveNowView.swift in Sources */,
 				F3AA2C312A68939E0042B599 /* InboxView.swift in Sources */,
+				F3AA2C422A6A16C60042B599 /* ProfileViewModel.swift in Sources */,
 				F3AA2C162A683ADA0042B599 /* ContentView.swift in Sources */,
 				F3AA2C142A683ADA0042B599 /* MessengerTutorialApp.swift in Sources */,
 				F3AA2C2E2A6884F00042B599 /* CommonButtonView.swift in Sources */,
